@@ -1,0 +1,17 @@
+{
+  "name": "es6-support",
+  "version": "1.0.0",
+  "description": "ES6支持",
+  "main": "src/a.js",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ewan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
